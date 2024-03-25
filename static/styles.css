@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f8ff; /* Set background color to sky blue */
+    margin: 0; /* Remove default margin from body */
+    padding: 45px; /* Remove default padding from body */
+    background-image: url('bgimage.jpg');
+    background-size: cover;
+}
+
+.container {
+    width: 350px; /* Set the width of the container */
+    margin: 50px auto; /* Center the container horizontally and add top margin */
+    padding: 20px; /* Add some padding inside the container */
+    border-radius: 10px; /* Add rounded corners to the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    background-color: #fff; /* Set background color to white */
+    border: 1px solid #ddd; /* Add a border around the container */
+}
+
+label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Set margin between labels */
+}
+
+input {
+    width: calc(100% - 10px); /* Set input width to 100% minus padding */
+    padding: 5px; /* Add padding to input fields */
+    margin-bottom: 10px; /* Set margin between input fields */
+    border: 1px solid #ddd; /* Add a border around input fields */
+    border-radius: 5px; /* Add rounded corners to input fields */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Set background color of submit button */
+    color: #fff; /* Set text color of submit button */
+    border: none; /* Remove border from submit button */
+    padding: 10px 20px; /* Add padding to submit button */
+    border-radius: 5px; /* Add rounded corners to submit button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Change background color of submit button on hover */
+}
