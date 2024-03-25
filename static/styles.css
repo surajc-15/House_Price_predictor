@@ -1,7 +1,7 @@
 body {
     background-color: #f0f8ff; /* Set background color to sky blue */
     margin: 0; /* Remove default margin from body */
-    padding: 65px 0px; /* Remove default padding from body */
+    padding: 70px 0px; /* Remove default padding from body */
     background-image: url('bgimage.jpg');
     background-size: cover;
     background-position: center bottom;
